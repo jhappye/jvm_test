@@ -7,9 +7,10 @@ public class TestDemo01 {
     public static void main(String[] args) throws InterruptedException {
 
         ArrayList<TestDemo01> testList = new ArrayList<>();
-                while(true){
-                    testList.add(new TestDemo01());
-                    Thread.sleep(10);
-                }
+        while(true){
+            testList.add(new TestDemo01());
+            Thread.sleep(10);
+            System.out.println("hello");
+        }
     }
 }
