@@ -10,6 +10,7 @@ public class TestDemo01 {
                 while(true){
                     testList.add(new TestDemo01());
                     Thread.sleep(10);
+                    System.out.println("dev")
                 }
     }
 }
